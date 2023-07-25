@@ -9,7 +9,7 @@ import {
   slideAnimation,
 } from '../config/motion'
 
-import CustomButton from '../components/CustomButton'
+import { CustomButton } from '../components'
 import state from '../store'
 
 const Home = () => {

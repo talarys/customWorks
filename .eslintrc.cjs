@@ -12,6 +12,7 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
+    'react/no-unknown-property': 'off',
     'react/no-unescaped-entities': 'off',
     'react/prop-types': 'off',
     'react-refresh/only-export-components': [

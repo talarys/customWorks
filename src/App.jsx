@@ -5,11 +5,11 @@ import Canvas from "./canvas"
 function App() {
 
   return (
-    <>
-    <Home/>
-    <Customizer/>
-    <Canvas/>
-    </>
+    <main className="app transition-all ease-in">
+      <Home/>
+      <Customizer/>
+      <Canvas/>
+    </main>
   )
 }
 

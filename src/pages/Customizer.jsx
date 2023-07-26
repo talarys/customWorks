@@ -56,7 +56,7 @@ const Customizer = () => {
             className='filtertabs-container'
             {...slideAnimation('up')}
           >
-            {EditorTabs.map((tab) => (
+            {FilterTabs.map((tab) => (
               <Tab
                 key={tab.name}
                 tab={tab}

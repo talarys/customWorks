@@ -5,6 +5,7 @@ import swatchIcon from './swatch.png'
 import logoShirtIcon from './logo-tshirt.png'
 import stylishShirtIcon from './stylish-tshirt.png'
 import threeJsIcon from './threejs.png'
+import galaxy from './galaxy.jpg'
 
 export {
   aiIcon,
@@ -14,4 +15,5 @@ export {
   logoShirtIcon,
   stylishShirtIcon,
   threeJsIcon,
+  galaxy,
 }

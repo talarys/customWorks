@@ -1,5 +1,5 @@
 import { proxy } from 'valtio'
-import { threeJsIcon } from './assets'
+import { threeJsIcon, galaxy } from './assets'
 
 const state = proxy({
   intro: true,
@@ -7,7 +7,7 @@ const state = proxy({
   isLogoTexture: true,
   isFullTexture: false,
   logoDecal: threeJsIcon,
-  fullDecal: threeJsIcon,
+  fullDecal: galaxy,
 })
 
 export default state
